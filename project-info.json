@@ -1,0 +1,30 @@
+{
+    "project": "Sistema de Punto de Venta (POS) CLI",
+    "tech": [
+        "C",
+        "SQLite",
+        "CLI"
+    ],
+    "features": [
+        "Gestión de Inventario (CRUD)",
+        "Carga Batch de Datos (CSV)",
+        "Facturación Automatizada con Impuestos",
+        "Control de Stock y Reportes en Tiempo Real",
+        "Interfaz Gráfica de Texto (TUI) con Colores"
+    ],
+    "stack": {
+        "language": "C (Std C11)",
+        "framework": "Native Console App",
+        "tools": [
+            "GCC",
+            "Git",
+            "Make/PowerShell"
+        ],
+        "database": "SQLite3 (Embedded)"
+    },
+    "screenshots": [],
+    "description": {
+        "es": "Aplicación de punto de venta en consola desarrollada en C que integra SQLite para gestión robusta de datos, control de inventarios, facturación y reportes estadísticos.",
+        "en": "Console-based Point of Sale application developed in C integrating SQLite for robust data management, inventory control, billing, and statistical reporting."
+    }
+}
