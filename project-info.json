@@ -1,30 +1,56 @@
 {
-    "project": "Sistema de Punto de Venta (POS) CLI",
-    "tech": [
-        "C",
-        "SQLite",
-        "CLI"
-    ],
-    "features": [
-        "Gestión de Inventario (CRUD)",
-        "Carga Batch de Datos (CSV)",
-        "Facturación Automatizada con Impuestos",
-        "Control de Stock y Reportes en Tiempo Real",
-        "Interfaz Gráfica de Texto (TUI) con Colores"
-    ],
-    "stack": {
-        "language": "C (Std C11)",
-        "framework": "Native Console App",
-        "tools": [
-            "GCC",
-            "Git",
-            "Make/PowerShell"
+    "en": {
+        "tech": [
+            "C (C11)",
+            "SQLite3",
+            "CLI / TUI",
+            "Data Extraction"
         ],
-        "database": "SQLite3 (Embedded)"
+        "features": [
+            "Advanced Inventory Management (CRUD)",
+            "Batch data loading via CSV files",
+            "Automated billing with tax calculation",
+            "Real-time stock control and reporting",
+            "Colorized TUI for better user experience"
+        ],
+        "stack": {
+            "language": "C",
+            "framework": "Native Console Application",
+            "tools": [
+                "GCC",
+                "SQLite CLI",
+                "Make"
+            ],
+            "database": "SQLite3 (Embedded)"
+        },
+        "screenshots": [],
+        "description": "A high-performance Point of Sale (POS) system engineered for high-volume terminal environments. Written in standard C11, it utilizes an embedded SQLite3 engine for industrial-grade data persistence and relational query optimization. The system supports massive batch data imports through CSV parsing and providing instant financial reporting. Its colorized TUI provides high visibility for cashiers, combining the raw speed of a terminal application with the reliability of a professional SQL-backed management tool."
     },
-    "screenshots": [],
-    "description": {
-        "es": "Aplicación de punto de venta en consola desarrollada en C que integra SQLite para gestión robusta de datos, control de inventarios, facturación y reportes estadísticos.",
-        "en": "Console-based Point of Sale application developed in C integrating SQLite for robust data management, inventory control, billing, and statistical reporting."
+    "es": {
+        "tech": [
+            "C (C11)",
+            "SQLite3",
+            "CLI / TUI",
+            "Extracción de Datos"
+        ],
+        "features": [
+            "Gestión avanzada de inventarios (CRUD)",
+            "Carga masiva de datos mediante archivos CSV",
+            "Facturación automatizada con cálculo de impuestos",
+            "Control de stock e informes en tiempo real",
+            "Interfaz TUI con colores para mejor experiencia de usuario"
+        ],
+        "stack": {
+            "language": "C",
+            "framework": "Aplicación de Consola Nativa",
+            "tools": [
+                "GCC",
+                "SQLite CLI",
+                "Make"
+            ],
+            "database": "SQLite3 (Embebida)"
+        },
+        "screenshots": [],
+        "description": "Un sistema de Punto de Venta (POS) de alto rendimiento diseñado para entornos de terminal con gran volumen de transacciones. Escrito en C11 estándar, utiliza un motor SQLite3 embebido para una persistencia de datos de grado industrial y consultas relacionales optimizadas. El sistema soporta importaciones masivas de datos mediante archivos CSV e informes financieros instantáneos. Su interfaz TUI con colores garantiza alta visibilidad, combinando la velocidad pura con la fiabilidad de SQL."
     }
 }
